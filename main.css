@@ -461,7 +461,8 @@ header nav ul li a:hover{
    
     }
     .about.p1{
-
+ text-align: left;
+ font-size: 30px;
     }
 .container{
   width: 260px;
