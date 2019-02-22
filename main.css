@@ -1,0 +1,461 @@
+body,html{
+   
+    margin:0;
+    padding:0;
+   background-color: black
+
+}
+h1{
+    font-family:VT323,Arial;
+}
+
+
+header{
+    position:fixed;
+    top: 0;
+    left:0;
+    padding : 0 50px; 
+    border-bottom: 2px solid rgba(19, 209, 223, 0.815);
+    background: rgba(217, 233, 235, 0.952);
+    box-shadow:0px 2px  rgba(0, 0, 0, 0.384);
+    width:100%;
+    z-index: 2;
+}
+header .logo{
+    color:black;
+    height: 50px;
+    line-height:50px;  
+    text-decoration: none;
+    float:left;
+    margin:0;
+    font-family:VT323,Arial;
+    font-size: 50px;
+    
+} 
+header nav{
+    float: right;
+    position: fixed;
+    right:100px;
+}
+header nav ul{
+    margin:0;
+    padding:0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    height: 50px;
+    line-height:50px;
+    padding:0 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-family: Indie Flower,arial;
+    font-size:25px;
+}
+header nav ul li a:hover{
+    background:rgba(19, 209, 223, 0.815);
+}
+.menu-toggle{
+    color:black;
+   float: right;
+   position: fixed;
+   right:55px;
+    line-height: 50px;
+    font-size:24px;
+    cursor: pointer;
+    display: none;
+   
+ 
+} 
+
+
+.intro{
+    position: relative;
+    text-align: center;
+    color: white;
+    background: black;
+    display:block;
+    width:100%;
+    height:5em;
+   
+}
+.clip-text {
+    font-size: 6em;
+    font-weight: bolder;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    font-family:Poiret One, arial;
+    color: #fff;
+    -webkit-background-clip: text;
+  
+    -webkit-text-fill-color: transparent;
+  }
+  .clip-text_one {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_-mvc57mplq9BEJM9gJt9zsXvNrfUo21Cbf6aY6Cnj7MaacQU);
+  }
+
+
+
+
+.about{
+    position: relative;
+    top:0;
+    margin: 0;
+    background: linear-gradient(45deg,rgba(52, 111, 236, 0.678),rgba(54, 5, 5, 0.726));
+    height: 550px;
+    width:100%;
+}
+.about h1{
+    position:absolute;
+    top:65px;
+    text-align: center;
+    left: 500px;
+    display:block;
+    line-height: 1.6;
+    font-size:100px;
+}
+.about p{
+    position:absolute;
+    top:250px;
+    text-align: center;
+    left: 300px;
+    display:block;
+    line-height: 1.6;
+    font-size:35px;
+    text-transform: capitalize;
+}
+.works {
+    position: relative;
+    top:0;
+    margin: 0;
+    display: block;
+    height: auto;
+    width:100%;
+   
+}
+.head{
+    color: white;
+    position: absolute;
+    top:0;
+    z-index: 1;
+    text-align: center;
+}
+.plox{
+    position: absolute;
+    top:200px;
+    text-align: center;
+    left: 150px;
+    display: block;
+}
+.image {
+    opacity: 1;
+    display: block;
+    
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 400px;
+    width:600px;
+    border: 10px dashed rgba(0, 89, 255, 0.466);
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .plox:hover .image {
+    opacity: 0.3;
+  }
+  
+  .plox:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(160, 64, 238);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 16px 32px;
+    text-decoration: none;
+    
+  }
+  .text a{
+      color:white;
+      text-decoration: none;
+  }
+  .plox2{
+    position: absolute;
+    top:200px;
+    text-align: center;
+    left: 775px;
+}
+.image2{
+    opacity: 1;
+    display: block;
+   
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 400px;
+    width:600px;
+    border: 10px dashed rgba(0, 89, 255, 0.466);
+  }
+  .plox2:hover .image2 {
+    opacity: 0.3;
+  }
+  
+  .plox2:hover .middle {
+    opacity: 1;
+  }
+  .projects{
+      position: relative;
+      top:0;
+      margin:0;
+      height:auto;
+      display:block;
+      width:100%;
+  }
+  .dis h1{
+   font-weight: bolder;
+  color:white;
+  font-size: 55px;
+  text-align: center;
+  }
+  .projects h2{
+      position: absolute;
+      top:500px;
+      color: beige;
+      text-align: center;   
+  }
+  .projects p{
+      color: bisque;
+  }
+
+
+  .contact{
+      position: relative;
+      top:0;
+      display: block;
+
+  }
+  .container 		{ 
+    font-family:'Roboto';
+    width:600px; 
+    margin:30px auto 0; 
+    display:block; 
+    background:#FFF;
+    padding:10px 50px 50px;
+  }
+  h2 		 { 
+    text-align:center; 
+    margin-bottom:50px; 
+  }
+  h2 small { 
+    font-weight:normal; 
+    color:#888; 
+    display:block; 
+  }
+  .footer 	{ text-align:center; }
+  .footer a  { color:#53B2C8; }
+  
+  /* form starting stylings ------------------------------- */
+  .group 			  { 
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  input 				{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #757575;
+  }
+  input:focus 		{ outline:none; }
+  
+  /* LABEL ======================================= */
+  label 				 {
+    color:#999; 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label 		{
+    top:-20px;
+    font-size:14px;
+    color:#5264AE;
+  }
+  
+  /* BOTTOM BARS ================================= */
+  .bar 	{ position:relative; display:block; width:300px; }
+  .bar:before, .bar:after 	{
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#5264AE; 
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .bar:before {
+    left:50%;
+  }
+  .bar:after {
+    right:50%; 
+  }
+  
+  /* active state */
+  input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width:50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+    position:absolute;
+    height:60%; 
+    width:100px; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+  
+  /* active state */
+  input:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+@media (max-width: 991px)
+{
+    header{
+        padding:0 20px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    header nav{
+       
+        position:fixed;
+        width:100%;
+        height:calc(100vh - 50px);
+        background:  rgba(217, 233, 235, 0.952);
+        top: 50px;
+        left:-100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left:0;
+    }
+    header nav ul{
+        display:block;
+        text-align: center;
+    }
+    header nav ul a{
+        border-bottom: 1px solid  rgb(8, 70, 184) ;
+    }
+ .quote{
+        position: absolute;
+        font-size: 50px;
+        left:29px;
+        display: flex;
+    }
+    .about h1{
+        top:30px;
+        left:100px;
+        font-size:65px;
+    }
+    .about p{
+        font-size:25px;
+        left:50px;
+        top:150px;
+    }
+    .plox{
+        transform: scale(0.34);
+        top:-55px;
+       left:0px;
+        margin-left: 30px;
+        display:block;
+        height:auto;
+
+    }
+    .plox2{
+        transform: scale(0.34);
+        top:100px;
+        left:0px;
+         margin-left: 30px;
+    }
+}
+@media (max-width:500px){
+    .quote{
+        position: absolute;
+        font-size: 25px;
+        left:29px;
+        display: flex;
+        top:50px;
+    }
+    .clip-text{
+        transform: scale(0.45);
+        text-align: left;
+        left: 0px;
+        padding: 0;
+        margin: 0;
+    }
+    .plox{
+        transform: scale(0.3);
+        top:calc(100vh-200px);
+       left:-250px;
+        margin-left: 30px;
+        display:block;
+        height:auto;
+
+    }
+    .plox2{
+        transform: scale(0.3);
+        top:-50px;
+        left:0px;
+         margin-left: 30px;
+    }
+
+}
+
+

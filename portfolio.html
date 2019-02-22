@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PORTFOLIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Poiret+One|VT323" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  
+
+</head>
+<body>
+    <header>
+            <a href="#" class="logo">PORTFOLIO</a>
+        <nav  role="navigation">
+         
+          <ul>
+         <li><a href="#about" class="a">About</a></li>
+        <li><a href="#works" class="b">Works</a></li>
+        <li><a href="#projects" class="c">projects</a></li>
+    <li><a href="#contact" class="d">Contact</a></li>
+          </ul>  
+        </nav>
+        <div class="menu-toggle">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div clas="intro">
+        <div class="clip-text clip-text_one">HEY COMMUNIST</div>
+            
+     </div>
+</div>
+<div class="about" id ="about">
+    <h1>HI I'M SAHIL </h1>
+    <p>And I am a fragile learner<br> who always try to achive some knowledge welp<br> i ain't a programmer althought programing is my hobby<br>
+     and,I might be playing asassin's creed while you're here</p>
+    
+</div>
+
+
+<div id="works" class="works">
+    
+<img src="https://i.ytimg.com/vi/ikVXM-gwb4o/maxresdefault.jpg" class="works">
+<div class="head">
+    <h1>SOME OF MY WORKS ARE HERE</h1>
+</div>
+
+<div class="plox">
+    <img src="https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/2018/05/31112343/Codepen.png" class=image>
+    <div class="middle">
+     <div class="text"><a href ="#">MY PENS</a></div>
+    </div>
+    
+</div>
+<div class="plox2">
+        <img src="https://smedia2.intoday.in/btmt/images/stories/github_660_060518055111.jpg" class="image2">
+        <div class="middle">
+                <div class="text"><a href ="#">repo</a></div>
+               </div>
+    </div>
+</div>
+
+<div id="projects" class="projects">
+<div class="dis">
+<h1>MY PROJECTS</h1>
+</div>
+<h2>COMING SOON CHECK FOR DAILY UPDATES</h2>
+<p> portfolio under construction....</p>
+</div>
+<div id="contact" class="contact">
+    <div class="container">
+  
+        <h2>CONTACT ME<small>Inputs</small></h2>
+        
+        <form>
+          
+          <div class="group">      
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Name</label>
+          </div>
+            
+          <div class="group">      
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Email</label>
+          </div>
+          
+        </form>
+</div>
+</div>
+<script 
+    src="https://code.jquery.com/jquery-3.3.1.js"
+   ></script>
+   <script type="text/javascript">
+   $(document).ready(function(){
+       $('.menu-toggle').click(function(){
+           $('nav').toggleClass('active')
+       })
+       $(".a").on('click',function(){
+    $(".menu-toggle").trigger("click");
+});
+$(".b").on('click',function(){
+    $(".menu-toggle").trigger("click");
+});
+$(".c").on('click',function(){
+    $(".menu-toggle").trigger("click");
+});
+$(".d").on('click',function(){
+    $(".menu-toggle").trigger("click");
+});
+       
+   })
+  
+   </script>
+
+</body>
+</html>
