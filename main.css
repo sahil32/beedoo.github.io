@@ -6,7 +6,7 @@ body,html{
 
 }
 h1{
-    font-family:VT323,Arial;
+    font-family:Poiret One,Arial;
 }
 
 
@@ -16,13 +16,13 @@ header{
     left:0;
     padding : 0 50px; 
     border-bottom: 2px solid rgba(19, 209, 223, 0.815);
-    background: rgba(217, 233, 235, 0.952);
+    background: rgba(3, 11, 12, 0.952);
     box-shadow:0px 2px  rgba(0, 0, 0, 0.384);
     width:100%;
     z-index: 2;
 }
 header .logo{
-    color:black;
+    color:rgb(139, 217, 219);
     height: 50px;
     line-height:50px;  
     text-decoration: none;
@@ -49,7 +49,7 @@ header nav ul li a{
     height: 50px;
     line-height:50px;
     padding:0 20px;
-    color: black;
+    color: rgb(128, 223, 226);
     text-decoration: none;
     display: block;
     font-family: Indie Flower,arial;
@@ -59,7 +59,7 @@ header nav ul li a:hover{
     background:rgba(19, 209, 223, 0.815);
 }
 .menu-toggle{
-    color:black;
+    color:rgb(139, 217, 219);
    float: right;
    position: fixed;
    right:55px;
@@ -114,23 +114,23 @@ header nav ul li a:hover{
     width:100%;
 }
 .about h1{
-    position:absolute;
-    top:65px;
+   
+   
     text-align: center;
-    left: 500px;
     display:block;
     line-height: 1.6;
     font-size:100px;
+    color:rgb(65, 177, 241);
+    font-family: Poiret One,Arial;
 }
 .about p{
-    position:absolute;
-    top:250px;
     text-align: center;
-    left: 300px;
     display:block;
     line-height: 1.6;
     font-size:35px;
     text-transform: capitalize;
+    color: aquamarine;
+    font-family:Indie Flower, sans-serif;
 }
 .works {
     position: relative;
@@ -142,11 +142,12 @@ header nav ul li a:hover{
    
 }
 .head{
-    color: white;
+    color: rgb(247, 247, 247);
     position: absolute;
     top:0;
     z-index: 1;
     text-align: center;
+    font-weight: bolder;
 }
 .plox{
     position: absolute;
@@ -232,18 +233,23 @@ header nav ul li a:hover{
   }
   .dis h1{
    font-weight: bolder;
-  color:white;
+  color:rgb(65, 177, 241);
   font-size: 55px;
   text-align: center;
   }
   .projects h2{
       position: absolute;
       top:500px;
-      color: beige;
-      text-align: center;   
+      color: aquamarine;
+      text-align: center; 
+      font-family: Indie flower, sans-serif;
+
   }
   .projects p{
-      color: bisque;
+      color: rgb(65, 177, 241);
+      font-family: Indie flower,sans-serif;
+      text-align: center;
+      font-size: 25px;
   }
 
 
@@ -378,7 +384,7 @@ header nav ul li a:hover{
         position:fixed;
         width:100%;
         height:calc(100vh - 50px);
-        background:  rgba(217, 233, 235, 0.952);
+        background:  rgba(0, 0, 0, 0.952);
         top: 50px;
         left:-100%;
         transition: 0.5s;
@@ -426,13 +432,7 @@ header nav ul li a:hover{
     }
 }
 @media (max-width:500px){
-    .quote{
-        position: absolute;
-        font-size: 25px;
-        left:29px;
-        display: flex;
-        top:50px;
-    }
+    
     .clip-text{
         transform: scale(0.45);
         text-align: left;
@@ -455,14 +455,17 @@ header nav ul li a:hover{
         left:-65px;
          margin-left: 30px;
     }
+    .text{
+      transform: scale(3);
+    }
      .about h1{
-      text-align: left;
+      text-align: center;
       font-size: 32px;
    
     }
     .about.p1{
  text-align: left;
- font-size: 30px;
+ font-size: 15px;
     }
 .container{
   width: 260px;
