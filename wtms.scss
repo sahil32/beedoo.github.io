@@ -1,0 +1,29 @@
+.navbar{
+    height:50px;
+    width:340px;
+    background:black;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    a{
+        color: ghostwhite;
+        text-decoration: none;
+        text-decoration-line:none;
+        font-family: Helvetica;
+    }
+}
+
+
+
+a{
+
+    transition: all .3s ease;
+&:hover{
+   transform: scale(1.01);
+   transition: all 2s ease;
+}
+&:active{
+    transform:scale(0.98);
+}
+}
